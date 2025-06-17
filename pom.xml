@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!--	<parent>-->
+    <!--		<groupId>org.springframework.boot</groupId>-->
+    <!--		<artifactId>spring-boot-starter-parent</artifactId>-->
+    <!--		<version>3.5.0</version>-->
+    <!--		<relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
+    <!--	</parent>-->
+
+    <parent>
+        <groupId>dev.filipvde.springforge</groupId>
+        <artifactId>spring-forge-starter-parent</artifactId>
+        <version>1.0.1-SNAPSHOT</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>dev.filipvde</groupId>
+    <artifactId>spring-forge-service-examples-parent</artifactId>
+    <version>${revision}</version>
+    <packaging>pom</packaging>
+    <name>spring-forge-service-examples-parent</name>
+
+    <properties>
+        <!-- General properties -->
+        <java.version>24</java.version>
+        <!--
+          The ${spring-forge.version} controls the versioning for the project and is added to the
+          Spring Boot build info, so it displays as part of Spring Boot Actuator's Info endpoint. This
+          is set by the configuration of the spring-boot-maven-plugin in the spring-forge-starter-pom.
+        -->
+        <spring-forge.version>1.0.1-SNAPSHOT</spring-forge.version>
+        <revision>${spring-forge.version}</revision>
+
+    </properties>
+
+    <modules>
+        <module>projects/spring-forge-service-template</module>
+    </modules>
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+        <repository>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <id>github-filipve1994-spring-forge</id>
+            <url>https://maven.pkg.github.com/filipve1994/spring-forge</url>
+        </repository>
+    </repositories>
+
+</project>

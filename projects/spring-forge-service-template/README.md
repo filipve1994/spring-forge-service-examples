@@ -1,6 +1,4 @@
-## Spring Forge Service Examples
-
-A template that demonstrates how to use the Spring Forge Starter POM
+## Spring Forge Service Template
 
 Spring Forge Service Template is a sample project to showcase the [Spring Forge Library](https://github.com/filipve1994/spring-forge) that uses Spring
 Auto-configuration to help with the configuration of some things.

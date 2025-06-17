@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-forge-service-template
+springforge:
+  logging:
+    json-format: true
+  common-controller-advice:
+    enabled: true
