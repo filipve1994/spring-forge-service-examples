@@ -1,4 +1,4 @@
-package dev.filipvde.springforgeservicetemplate;
+package dev.filipvde.springforge.servicetemplate;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

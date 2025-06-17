@@ -1,4 +1,4 @@
-package java.dev.filipvde.springforgeservicetemplate;
+package dev.filipvde.springforge.servicetemplate;
 
 // import org.springframework.boot.SpringApplication;
 //

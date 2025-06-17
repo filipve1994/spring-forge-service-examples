@@ -1,4 +1,4 @@
-package dev.filipvde.springforgeservicetemplate.controller;
+package dev.filipvde.springforge.servicetemplate.controller;
 
 import dev.filipvde.springforge.autoconfigure.controlleradvice.CommonControllerAdvice;
 import org.junit.jupiter.api.Test;

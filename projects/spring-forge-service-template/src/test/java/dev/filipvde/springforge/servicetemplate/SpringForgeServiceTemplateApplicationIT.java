@@ -1,4 +1,4 @@
-package java.dev.filipvde.springforgeservicetemplate;
+package dev.filipvde.springforge.servicetemplate;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
